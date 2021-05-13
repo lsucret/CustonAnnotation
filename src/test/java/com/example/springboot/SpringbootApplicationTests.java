@@ -1,6 +1,5 @@
 package com.example.springboot;
 
-import com.example.springboot.builder.Animal;
 import com.example.springboot.service.FileSystemStorageService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
