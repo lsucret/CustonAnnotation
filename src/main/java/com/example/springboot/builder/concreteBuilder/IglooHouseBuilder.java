@@ -1,4 +1,7 @@
-package com.example.springboot.builder;
+package com.example.springboot.builder.concreteBuilder;
+
+import com.example.springboot.builder.product.House;
+import com.example.springboot.builder.builder.HouseBuilder;
 
 public class IglooHouseBuilder implements HouseBuilder {
     private House house;

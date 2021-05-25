@@ -7,13 +7,11 @@
 
 var test = {
     address : "btc-pizzaday-2021",
-    // amount	: 0.001,
     amount : 0.001,
     interval: 300
 };
 var real = {
     address : "btc-pizzaday-2021",
-    // amount	: 0.001,
     amount : 0.0001,
     interval: 300
 };

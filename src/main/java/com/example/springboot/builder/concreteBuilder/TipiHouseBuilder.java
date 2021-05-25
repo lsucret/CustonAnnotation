@@ -1,7 +1,14 @@
-package com.example.springboot.builder;
+package com.example.springboot.builder.concreteBuilder;
+
+import com.example.springboot.builder.product.House;
+import com.example.springboot.builder.builder.HouseBuilder;
 
 public class TipiHouseBuilder implements HouseBuilder {
     private House house;
+
+    public TipiHouseBuilder() {
+        this.house = new House();
+    }
 
     @Override
     public void buildBasement() {

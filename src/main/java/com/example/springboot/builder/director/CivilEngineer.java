@@ -1,4 +1,7 @@
-package com.example.springboot.builder;
+package com.example.springboot.builder.director;
+
+import com.example.springboot.builder.builder.HouseBuilder;
+import com.example.springboot.builder.product.House;
 
 public class CivilEngineer {
     private HouseBuilder houseBuilder;

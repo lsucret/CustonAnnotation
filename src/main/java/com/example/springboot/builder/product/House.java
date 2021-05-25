@@ -1,4 +1,4 @@
-package com.example.springboot.builder;
+package com.example.springboot.builder.product;
 
 public class House implements HousePlan {
     private String basement;

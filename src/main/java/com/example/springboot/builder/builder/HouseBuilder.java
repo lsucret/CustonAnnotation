@@ -1,4 +1,6 @@
-package com.example.springboot.builder;
+package com.example.springboot.builder.builder;
+
+import com.example.springboot.builder.product.House;
 
 public interface HouseBuilder {
     public void buildBasement();
